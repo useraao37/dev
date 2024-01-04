@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+body{
+    margin: 3px;
+    padding: 0%;
+    background: rgb(3, 0, 10);
+}
+
+/*-------------head----------------*/
+
+#head span{ 
+    margin: 3px 0;
+    padding: 4px 12px;
+    color: rgb(0, 2, 105);
+    background: rgba(255, 255, 255, 0.938);
+    box-shadow: 0 0 9px 0 white;
+    border-radius: 95px;
+    font-size: 35px;
+    background-image: none;
+    background-position: center;
+    transition: all .9s;
+}
+
+#head span:hover{
+   background-image: url("images.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    color: rgb(0, 0, 0);   
+    cursor: default;
+
+} 
+
+
+
+#head{
+    position: fixed;
+    margin: 11px 43vh;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    background: transparent;
+    color: whitesmoke;
+   border: solid #0f00e600 1px;
+   border-radius: 45px;
+   transition: all 1s;
+} 
+
+#head:hover{
+   background: #0a0a0a5e;
+   backdrop-filter: blur(5px);
+   border: solid #0f00e6e1 1px;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1700e6, 0 0 40px #0023e6, 0 0 50px #2300e6, 0 0 60px #0f00e6, 0 0 70px #0f00e6;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4d8bff, 0 0 40px #4d94ff, 0 0 50px #4da0ff, 0 0 60px #4d94ff, 0 0 70px #4d94ff, 0 0 80px #4d8bff;
+    }
+  }
+
+
+#head h1, li{
+    margin: 1% 5vh;
+    display: inline;
+    color: rgb(216, 226, 235);
+    cursor: default;
+
+}
+
+#head li{
+    margin: 3px 19px;
+    transition: all .3s;
+    font-size: 23px;
+}
+
+#head li:hover{
+    color: rgb(14, 17, 207);   
+    cursor: pointer;
+}
+
+ a{
+    text-decoration: none;
+  }
+
+ /*--------------------home----------------------*/
+ #home span{
+    color: blue;
+    text-shadow: 2px 2px #1d1d1d69;
+}
+
+ #home, #about{
+    background-image: url("img19.jpg");
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    color: rgba(240, 248, 255, 0.959);
+    padding: 1%;
+    margin: 20px;
+    transition: all 1s;
+ }
+
+ #home:hover, #about:hover{
+    background-image: url("windows-11-microsoft-hd-wallpaper-preview.jpg");
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e6fcff;
+    cursor: default;
+ }
+
+ #home h1{
+    margin: 1%;
+    font: 3em normal;
+    text-shadow: 2px 2px rgba(24, 24, 24, 0.89);
+ }
+
+ #home p{
+    font-size: 20px;
+    margin: 1% 4%;
+ }
+
+ #home #img_a, #img_b{
+    justify-content: center;
+    align-items: center;
+    margin: 12px 6.2vh;
+    width: 500px;
+    height: 340px;
+    border: 4px solid rgba(182, 189, 204, 0);
+    border-radius: 69px;
+    transition: all .8s;
+ }
+ 
+ #home #img_a:hover, #img_b:hover{
+    border: 4px solid rgba(17, 27, 165, 0.952);
+ }
+ 
+ /*------~------*/
+
+
+#myVideo {
+    display: none;
+    min-width: 100%; 
+    min-height: 100%;
+    margin: 1%;
+  }
+ 
+
+ /*--------------about--------------*/
+
+
+ #about span{
+    color: blue;
+    text-shadow: 2px 2px #1d1d1de1;
+}
+
+#about h1{
+    margin: 2%;
+    font: 3em normal;
+    text-shadow: 2px 2px rgba(24, 24, 24, 0.89);
+ }
+
+ #about p{
+    font-size: 20px;
+    margin: 2.3% 4%;
+ }
+
+ #about img{
+    margin: 20px 3%;
+    padding: 12px 12px;
+    border-radius: 67px;
+    width: 83px;
+    border: solid whitesmoke 2px;
+    background-color: rgba(128, 128, 128, 0.877);
+    transition: all .8s;
+    box-shadow: 0 9% 0 rgba(245, 245, 245, 0.884);
+ }
+
+ #about img:hover{
+    background: #0a0a0ae5;
+    filter: contrast(9px);
+ }
+
+/*--------------------projects------------------------------*/
+
+#projects span{
+   color: blue;
+   text-shadow: 2px 2px #1d1d1d69;
+}
+
+#projects, #contact{
+   background-image: url("img19.jpg");
+   background-attachment: fixed;
+   background-position: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 25px;
+   color: rgba(240, 248, 255, 0.959);
+   padding: 4%;
+   margin: 20px;
+   transition: all 1s;
+}
+
+#projects:hover, #contact:hover{
+   background-image: url("windows-11-microsoft-hd-wallpaper-preview.jpg");
+   background-attachment: fixed;
+   background-position: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #e6fcff;
+   cursor: default;
+}
+
+#projects h1{
+   margin: 9px -30px;
+   font-size: 44px;
+}
+
+#projects .image{
+   margin: 4%;
+   padding: 4% 4%;
+   border: #0023e6 solid 3px;
+   border-bottom:3px solid #e9e9e9a6;
+   border-left: 3px solid #e9e9e9a6;
+   border-radius: 32px;
+   justify-items: center;
+   align-items: center;
+   justify-content: space-between;
+   transition: all 1.6s;
+}
+
+#projects .image:hover{
+   background: rgba(176, 176, 255, 0.349);
+}
+
+#projects img{
+   margin: 5px 1.5%;
+   border-radius: 45px;
+   width: 270px;
+   height: 254px;
+   transition: all .9s;
+   border: 4px solid rgba(17, 27, 165, 0);
+}
+
+#projects img:hover{
+   border: 4px solid rgba(17, 27, 165, 0.952);
+}
+
+/*---------------contacts------------------*/
+
+#contact span{
+   color: blue;
+   text-shadow: 2px 2px #1d1d1d69;
+}
+
+
+
+#contact h1{
+   margin-top: 22px;
+   margin-bottom: 7px;
+   font-size: 38px;
+}
+
+#contact h2{
+   margin: 0px 4%;
+   font-size: 32px;
+}
+
+#contact h2 img{
+   padding: 2px 2px;
+   width: 31px;
+   border: solid white 1px;
+   border-radius: 5px;
+   margin: -1% 1px;
+   transition: all .9s;
+}
+
+#contact h2 img:hover{
+   background: rgba(37, 74, 143, 0.781);
+}
+
+#contact a, #button{
+   margin: 2% 1.3%;
+   padding: 8px 9px;
+   font-size: 20px;
+   font: normal;
+   color: whitesmoke;
+   background: #0f00e644;
+   border: white solid 1px;
+   border-radius: 14px;
+   transition: all .4s;
+}
+
+#contact a:hover, #button:hover{
+   color: whitesmoke;
+   background: #0f00e6f5;
+   border: white solid 1px;
+}
+
+#contact form{
+   margin-top: -7%;
+   margin-left: 55%;
+   width: 40%;
+   display: block;
+   color: rgb(20, 20, 20);
+}
+
+#contact input, textarea{
+   width: 100%;
+   outline: none;
+   background-image: url("image_d32.jpg");
+   background-attachment: fixed;
+   background-position: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 12px;
+   margin: 4%;
+   color: rgba(5, 5, 5, 0.911);
+   font-size: 18px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border: solid rgba(14, 14, 14, 0.671) 2px;
+   border-radius: 6px;
+   transition: all .9s;
+}
+
+#contact input:hover, textarea:hover{
+   background-image: url("img32.jpg");
+   background-attachment: fixed;
+   background-position: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: solid rgba(255, 255, 255, 0.966) 2px;
+}
