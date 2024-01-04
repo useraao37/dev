@@ -219,7 +219,7 @@ body{
 }
 
 #projects:hover, #contact:hover{
-   background-image: url("32.jpg");
+   background-image: url("img32.jpg");
    background-attachment: fixed;
    background-position: fixed;
    background-size: cover;
